@@ -5,9 +5,9 @@ r10944050 洪靖嘉 <br>
 r10921069 沈郁鈞
 
 ## Usage:
-* for test data provided from course website
+* for test data provided from course website <br>
 python3 code/main.py  --input ./data --output ./result
-* for data self taken
+* for data self taken <br>
 python3 code/main.py  --input ./self_data --output ./result
 
 ### Arguments
