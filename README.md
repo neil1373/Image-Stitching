@@ -1,4 +1,4 @@
-# VFX Project 2 - Image-stitiching
+# VFX Project 2 - Image Stitching
 
 ## Members:
 r10944050 洪靖嘉 <br>
@@ -18,6 +18,4 @@ python3 code/main.py  --input ./self_data --output ./result
 Ubuntu 20.04.4 LTS <br>
 python3.9 <br>
 libraries: opencv, scipy, standard libraries
-
-
 
