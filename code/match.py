@@ -16,7 +16,7 @@ def matching(img1, img2, des1, des2, pos1, pos2):
     for i in range(num_feature):
         row = sorted_index[i]
         # shortest/seconf_shortest < threshold and height of two feature should not be tow far apart
-        if distances[i, row[0]] / distances[i, row[1]] < 0.8 and abs(pos1[i][0]-pos2[row[0]][0])<20:
+        if distances[i, row[0]] / distances[i, row[1]] < 0.875 and abs(pos1[i][0]-pos2[row[0]][0]) < 25:
             # img1:des1[i] correspond to img2:des2[row[0]] 
             match_pair = [pos1[i], pos2[row[0]]]
             match_pairs += [match_pair]

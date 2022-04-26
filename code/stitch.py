@@ -55,8 +55,7 @@ def stitching(tgt_img, src_img, shift, shift_h):
 
 	# linear transformation in overlapping area
 	for i in range(stitch_left, stitch_right):
-		merge_img[:, i, :] = (img_1[:, i, :] * (stitch_right - i) + img_2[:, i, :]*(i - stitch_left)) / (stitch_right - stitch_left)
-
+		merge_img[:, i, :] = (img_1[:, i, :]*(stitch_right - i) + img_2[:, i, :]*(i - stitch_left)) / (stitch_right - stitch_left)
 	return merge_img, 0 if shift[0] + shift_h < 0 else shift[0] + shift_h
 
 def global_warping(img, drift):
