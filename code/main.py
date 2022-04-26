@@ -70,4 +70,4 @@ if __name__ == '__main__':
         os.mkdir(output_dir)
     cv2.imwrite(os.path.join(output_dir, 'pano_img.png'), tgt_img)
     tgt_img = global_warping(tgt_img, drift)    
-    cv2.imwrite(os.path.join(output_dir, 'pano_img_warp.png'), tgt_img)
+    cv2.imwrite(os.path.join(output_dir, 'result.png'), tgt_img)

@@ -10,7 +10,7 @@ python3 code/main.py  --input ./data --output ./result
 * for data self taken <br>
 python3 code/main.py  --input ./self_data --output ./result
 
-### Arguments
+## Arguments
 >--input: The path for input image folder  <br>
 --output: The path for saving output image folder
 
@@ -19,3 +19,6 @@ Ubuntu 20.04.4 LTS <br>
 python3.9 <br>
 libraries: opencv, scipy, standard libraries
 
+## Other
+
+Please use result/result.png as the final image for grading/voting.
